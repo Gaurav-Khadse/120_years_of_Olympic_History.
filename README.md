@@ -28,33 +28,39 @@ Tools Used🛠️:My Sql Workbench
 ## 💾 Data Setup in SQL Workbench
 The dataset was imported into MySQL Workbench. Key fields included:
 
-- ID: Unique identifier for each record
+- ID: A unique identifier for each athlete entry.
 
-- Name: Athlete’s name
+- Name: The full name of the athlete.
 
-- Sex: Gender of the athlete (M/F)
+- Sex: Gender of the athlete (M/F).
 
-- Age: Athlete’s age
+- Age: The age of the athlete during the event.
 
-- Height and Weight: Physical attributes
+- Height: Athlete’s height in centimeters.
 
-- Team: Country or team name
+- Weight: Athlete’s weight in kilograms.
 
-- NOC: National Olympic Committee code
+- Team: The name of the country/team the athlete represented.
 
-- Games: Edition of the Olympics
+- NOC: National Olympic Committee code (e.g., FIN for Finland, NOR for Norway).
 
-- Year and Season: Year and type (Summer/Winter)
+- Games: Represents the year and season (e.g., 1992 Summer, 1994 Winter).
 
-- City: Host city
+- Year: The year of the Olympic event.
 
-- Sport and Event: Type of sport and specific event
+- Season: Either “Summer” or “Winter” Olympics.
 
-- Medal: Medal won (Gold/Silver/Bronze/NA)
+- City: The host city of the Olympic Games.
 
-SQL queries were used to filter, group, and sort this data to extract meaningful historical and comparative insights.
+- Sport: The type of sport (e.g., Gymnastics, Swimming, Alpine Skiing).
 
-🔍 Exploring the Dataset
+- Event: Specific event within the sport (e.g., Gymnastics Men's Floor Exercise).
+
+- Medal: The medal won (Gold, Silver, Bronze, or NA for no medal).
+
+These columns were analyzed using SQL queries to perform a variety of operations such as aggregation, filtering, sorting, grouping, ranking, and joins to extract insights about athlete performance, country participation, and medal achievements.
+
+## 🔍 Exploring the Dataset
 Initial exploration steps:
 
 Using SELECT * FROM olympics_data LIMIT 5; to preview sample records
