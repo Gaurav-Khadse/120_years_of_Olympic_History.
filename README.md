@@ -15,9 +15,7 @@ The 120 years of Olympic History Data Analysis Project: In today's data-driven w
 
 The true potential of data analysis becomes evident through this project as we dive deep into the Olympic records using SQL queries and functions like SUM(), GROUP BY, ORDER BY, DISTINCT, LIMIT, and conditional clauses. At the core, this project revolves around understanding how factors like age, gender, height, weight, and nationality correlate with performance and participation in Olympic sports.
 
-Using MySQL Workbench, I explored trends across countries such as Finland, China, Norway, Netherlands, USA, and Denmark. The dataset covers both Summer and Winter Olympics, offering a wide range of comparative analysis opportunities.
-
-From medal distributions to athlete participation trends, this project touches on both historical and performance-based aspects of the Olympics. Working with such a dataset not only enhanced my SQL proficiency but also helped me develop domain knowledge in sports analytics and data storytelling.
+Using MySQL Workbench, I explored trends across countries such as Finland, China, Norway, Netherlands, USA, and Denmark. The dataset covers both Summer and Winter Olympics, offering a wide range of comparative analysis opportunities.From medal distributions to athlete participation trends, this project touches on both historical and performance-based aspects of the Olympics. Working with such a dataset not only enhanced my SQL proficiency but also helped me develop domain knowledge in sports analytics and data storytelling.
 
 Throughout the project, I used SQL's built-in functions and filtering techniques to explore Top-performing athletes and countries, Gender-wise distribution and evolution over time, Physical attributes (Height, Weight, Age) of medal-winning athletes, Event participation frequency and medal outcomes,Missing or null value handling for better data integrity.The visual and interactive nature of MySQL Workbench added to the analytical experience by enabling query optimization and pattern discovery through real-time feedback.
 
