@@ -28,29 +28,29 @@ Tools Used🛠️:My Sql Workbench
 ## 💾 Data Setup in SQL Workbench
 The dataset was imported into MySQL Workbench. Key fields included:
 
-ID: Unique identifier for each record
+- ID: Unique identifier for each record
 
-Name: Athlete’s name
+- Name: Athlete’s name
 
-Sex: Gender of the athlete (M/F)
+- Sex: Gender of the athlete (M/F)
 
-Age: Athlete’s age
+- Age: Athlete’s age
 
-Height and Weight: Physical attributes
+- Height and Weight: Physical attributes
 
-Team: Country or team name
+- Team: Country or team name
 
-NOC: National Olympic Committee code
+- NOC: National Olympic Committee code
 
-Games: Edition of the Olympics
+- Games: Edition of the Olympics
 
-Year and Season: Year and type (Summer/Winter)
+- Year and Season: Year and type (Summer/Winter)
 
-City: Host city
+- City: Host city
 
-Sport and Event: Type of sport and specific event
+- Sport and Event: Type of sport and specific event
 
-Medal: Medal won (Gold/Silver/Bronze/NA)
+- Medal: Medal won (Gold/Silver/Bronze/NA)
 
 SQL queries were used to filter, group, and sort this data to extract meaningful historical and comparative insights.
 
