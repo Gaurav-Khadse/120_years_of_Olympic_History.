@@ -61,38 +61,24 @@ The dataset was imported into MySQL Workbench. Key fields included:
 These columns were analyzed using SQL queries to perform a variety of operations such as aggregation, filtering, sorting, grouping, ranking, and joins to extract insights about athlete performance, country participation, and medal achievements.
 
 ## 🔍 Exploring the Dataset
-Initial exploration steps:
+After setting up the dataset in MySQL Workbench, the initial step was to explore and understand the structure of the data. Using queries like SELECT * FROM table_name LIMIT 5;, I previewed the dataset to get a comprehensive overview of the information available for analysis.
 
-Using SELECT * FROM olympics_data LIMIT 5; to preview sample records
+This exploratory phase involved:
 
-Checking gender-based participation trends in different years
 
-Identifying athlete records with missing data in Height, Weight, or Medal fields
+- Reviewing column names, such as Name, Sex, Age, Height, Weight, Team, NOC, Year, Season, Sport, Event, and Medal, to understand the overall schema and data coverage.
 
-Exploring popular sports by athlete count
+- Understanding the relationships between key attributes, like how Team and NOC connect to athlete nationality, and how Sport, Event, and Medal reflect performance data.
 
-Viewing Olympic participation history for specific athletes (e.g., Paavo Nurmi or John Aalberg)
+- Assessing demographic distributions by scanning values of Sex, Age, Height, and Weight to identify athlete characteristics across different sports and countries.
 
-Analyzing country participation over decades
+- Exploring temporal data, including the Year, Games, and City, to see patterns across different Olympic editions.
 
-This phase ensured data understanding and readiness for deeper analysis.
+- Identifying missing values, such as NA in Height, Weight, or Medal, to determine data quality issues and plan for data cleaning or filtering.
 
-🔍 Analytical Insights
-Advanced queries and Python visualization revealed:
+- Highlighting recurring names to detect athletes who participated in multiple events or years.
 
-Most common sports in Summer vs. Winter Olympics
-
-Medal-winning athletes by country (USA, FIN, NOR, NED, CHN)
-
-Multiple entries by athletes across years and events
-
-Identifying top-performing countries by sport
-
-Trend of physical attributes (height, weight) for medalists
-
-Longitudinal study of athlete performance like Paavo Nurmi (Finland – multiple medals in Gymnastics)
-
-Gender participation over time and medal share
+- Analyzing the spread of medal wins and identifying which countries and athletes had repeated successes.
 
 
 
